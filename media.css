@@ -179,9 +179,11 @@
         max-width: 688px;
         width: 100%;
     }
-.menu__phone{
-    flex-wrap: wrap;
-}
+
+    .menu__phone {
+        flex-wrap: wrap;
+    }
+
     /*  ========= header end ========= */
 }
 
@@ -225,6 +227,10 @@
         font-size: 12px;
         max-width: 240px;
         width: 100%;
+    }
+
+    .footer__center {
+        display: none;
     }
 
     /* <!-- ========= main end ========= -->  */
@@ -334,6 +340,9 @@
     }
 
     /* <!-- ========= main end ========= -->  */
+    .footer__center {
+        display: none;
+    }
 
     /*  ========= header end ========= */
 }
